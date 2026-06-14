@@ -1,0 +1,49 @@
+{
+  "dangers": [],
+  "discoveries": [
+    {
+      "item": "wood",
+      "how_to_collect": "Walk near any tree \u2014 wood is collected automatically on proximity, no action needed"
+    },
+    {
+      "item": "stone",
+      "how_to_collect": "Walk near stone rocks \u2014 stones break and are collected automatically on proximity, no action needed"
+    },
+    {
+      "item": "crafting_machine",
+      "how_to_use": "Walk near the crafting machine while carrying the required resources \u2014 crafting triggers automatically"
+    }
+  ],
+  "tool_recipes": [
+    {
+      "tool": "scissors",
+      "requires": [
+        "wood",
+        "stone"
+      ],
+      "how_to_craft": "Collect wood by walking near trees, collect stone by walking near rocks, then walk to the crafting machine \u2014 it crafts automatically",
+      "unlocks": "unknown \u2014 explore after crafting"
+    }
+  ],
+  "area_knowledge": [
+    {
+      "area": "starting island",
+      "notes": "Has trees for wood and rocks for stone. Crafting machine is present on the island.",
+      "status": "explored"
+    }
+  ],
+  "resource_mechanics": {
+    "collection_method": "proximity-based \u2014 walk into/near the resource, it auto-collects",
+    "approach_direction": "CRITICAL \u2014 always approach resources from the SOUTH side moving NORTH. Position yourself south of the tree/rock, then move NORTH into it. Collection triggers when entering from below.",
+    "crafting_method": "proximity-based \u2014 walk to crafting machine with required items in inventory, crafts automatically",
+    "vegetation_clearing": "CRITICAL \u2014 dense vegetation patches block movement. You cannot walk through uncleared vegetation. You must clear those tiles first before you can enter them. Route around uncleared vegetation or clear it with the appropriate tool before trying to pass through."
+  },
+  "failed_strategies": [
+    "Moving left and up from the starting position does not reach stones for collection."
+  ],
+  "wait_rule": "Only use WAIT if you can visually confirm progress is happening \u2014 e.g. a resource counter is actively increasing, a crafting animation is playing, or an item is visibly being collected. If the screen shows no active change, WAIT is wasted time. Move instead.",
+  "health_management": [],
+  "key": "position_status",
+  "value": "Player moving north-west towards palm trees for wood collection",
+  "position_status": "Player moving north-east to access stone for crafting scissors"
+}
