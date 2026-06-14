@@ -2,7 +2,7 @@
 
 An autonomous vision-language agent that plays **Survival 3D** on [YouTube Playables](https://www.youtube.com/playables). It watches the game through screenshots, sets goals from the UI, plans movement, and executes keyboard actions in a loop.
 
-**Demo:** [Watch `Demovideo_1.mp4`](demovideo/Demovideo_1.mp4) in the [`demovideo/`](demovideo/) folder.
+**Demo:** [Watch `Demovideo_1.mp4`](https://github.com/Vidit-Ostwal/Automating-3DSurvival-Playing/blob/main/demovideo/Demovideo_1.mp4)
 
 ## How it works
 
@@ -99,10 +99,9 @@ demovideo/          # Demo recordings (Demovideo_1.mp4)
 
 The agent playing Survival 3D autonomously — reading goals from the UI, planning movement, and collecting resources.
 
-<video src="https://github.com/Vidit-Ostwal/Automating-3DSurvival-Playing/raw/main/demovideo/Demovideo_1.mp4" controls width="100%"></video>
+**[Watch Demovideo_1.mp4 on GitHub](https://github.com/Vidit-Ostwal/Automating-3DSurvival-Playing/blob/main/demovideo/Demovideo_1.mp4)**
 
-- **Watch in browser:** [Demovideo_1.mp4](demovideo/Demovideo_1.mp4)
-- **Direct link (after clone):** open `demovideo/Demovideo_1.mp4` locally, or use the [raw file on GitHub](https://github.com/Vidit-Ostwal/Automating-3DSurvival-Playing/raw/main/demovideo/Demovideo_1.mp4)
+After cloning, you can also open `demovideo/Demovideo_1.mp4` locally.
 
 ## License
 
