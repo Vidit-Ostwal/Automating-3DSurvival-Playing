@@ -6,7 +6,7 @@ An autonomous vision-language agent that plays **Survival 3D** on [YouTube Playa
 
 The agent playing Survival 3D autonomously — reading goals from the UI, planning movement, and collecting resources.
 
-<video src="https://raw.githubusercontent.com/Vidit-Ostwal/Automating-3DSurvival-Playing/main/demovideo/Demovideo_1.mp4" controls width="100%"></video>
+![Agent demo](demovideo/Demovideo_1.gif)
 
 ## How it works
 
@@ -96,7 +96,7 @@ agent/
 memory/
   memory.json       # Persistent game knowledge
 outputs/            # Per-run logs (gitignored)
-demovideo/          # Demo recordings (Demovideo_1.mp4)
+demovideo/          # Demo recordings (Demovideo_1.gif)
 ```
 
 ## License
